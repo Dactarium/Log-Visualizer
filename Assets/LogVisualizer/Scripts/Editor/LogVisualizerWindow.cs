@@ -83,7 +83,7 @@ namespace LogVisualizer.Scripts.Editor
                 }
             }
             
-            Window.m_LogCount = 0;
+            Window.LogCount = 0;
             
             Window.Show();
         }
@@ -95,23 +95,6 @@ namespace LogVisualizer.Scripts.Editor
                 Window.Close();
             }
             ShowWindow();
-        }
-
-        private void OnFocus(){
-            if(Window != null)
-                return;
-
-            Window = GetWindow<LogVisualizerWindow>();
-        }
-
-        public void CreateGUI(){
-            if(!Settings || Settings.LogVisuals == null || Settings.LogVisuals.Length == 0)
-                return;
-
-            rootVisualElement.style.width = new Length(100, LengthUnit.Percent);
-            rootVisualElement.style.height = new Length(100, LengthUnit.Percent);
-            rootVisualElement.style.backgroundImage = new StyleBackground(m_CurrentSprite);
-            rootVisualElement.style.unityBackgroundScaleMode = ScaleMode.ScaleAndCrop;
         }
 
         private void OnGUI(){

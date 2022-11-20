@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab026a5ea14411c84a466a4f7bd7b93, type: 3}
+  m_Name: LogVisualizerSettings
+  m_EditorClassIdentifier: 
+  <ClearOnValidate>k__BackingField: 1
+  <ClearOnEnterPlayMode>k__BackingField: 1
+  <ClearOnExitPlayMode>k__BackingField: 1
+  <CalmCooldown>k__BackingField: 1
+  <LogTypes>k__BackingField: 00000000
+  <LogVisuals>k__BackingField:
+  - threshold: 1
+    sprite: {fileID: 21300000, guid: a48f491696c254f4294d129479dfa25d, type: 3}
+  - threshold: 3
+    sprite: {fileID: 21300000, guid: 273a87382258e0a4f9fd13ce0844faf6, type: 3}
+  - threshold: 5
+    sprite: {fileID: 21300000, guid: f9fb36d924b3abc49b18c1dfb01178ad, type: 3}
+  - threshold: 5
+    sprite: {fileID: 21300000, guid: 4d070dfbf5647b04ba333628c83100e8, type: 3}
+  - threshold: 0
+    sprite: {fileID: 21300000, guid: 2e005bc6a9fddb14d8c7fb0450903862, type: 3}

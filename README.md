@@ -1,0 +1,2 @@
+# LogVisualizer
+ Visualized log counter
